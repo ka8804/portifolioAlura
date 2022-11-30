@@ -1,0 +1,195 @@
+.experiencia-container{
+    height: 370px;
+    background-color:#F5FFFA;
+    padding: 32px;
+}
+.experiencia-titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #464646;
+    margin-bottom: 16px;
+}
+
+.decodificador-textoprincipal{
+        margin-left: 4%;
+        margin-bottom: 8px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+        
+        
+}
+.decodificador-textobasico{
+    margin-left: 4%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+footer{
+    width: 768px;
+    height: 70px;
+    background-image: url(/banner1edit.jpg);
+    opacity: 0.90;   
+}
+
+.footer-texto{
+    position: relative;
+    font-family: 'Raleway';
+    font-weight:bolder;
+    font-size: 14px;
+    padding-left: 10%;
+    padding-top:3.5%;
+}
+#data{
+    position: relative;
+    margin: 1.45%;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 14px;
+    padding-left: 20%;  
+}
+.formulario{
+    background-color:#E0FFFF;
+    height: 570px;
+}
+.formulario-descricao {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Raleway';
+    color: #464646;
+}
+.formulario-contato{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+form{
+margin: 3px 0;
+}
+form input{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding: 14px;
+    padding-right: 30%;
+    padding-left: 1%;
+}
+
+textarea{
+    width: 155px;
+    height: 133px;
+    display: block ;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    padding: 18px;
+    padding-right: 30%;
+    padding-left: 1%;
+
+}
+
+.botao{
+    height: 50px;
+    padding-left: 18%;
+    padding-right: 20%;
+    background-color:#DA70D6;
+    font-style: 'raleway';
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    color: aliceblue;
+    border: none;
+    border-radius: 5%;
+    opacity: 0.70;
+}
+.botao:hover{
+    background:#66CDAA ;
+}
+
+#botao-repositorio,#botao-page{
+    width: 140px;
+    height: 35px;
+    margin-top: 3%;
+    margin-left: 3%;
+    background-color:#DA70D6;
+    font-style: 'raleway';
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    color: aliceblue;
+    border:none;
+    border-radius: 5%; 
+    opacity: 0.70;
+}
+
+#botao-page:hover{
+    background:#66CDAA ;
+}
+  
+#botao-repositorio:hover{
+    background:#66CDAA ;
+}
+@media  screen and (min-width:740px){
+     .experiencia-titulo {
+        width: 250px;
+        height: 26px;
+        padding-left: 40%;
+     }
+     .decodificador{
+        padding-left: 20%;
+     }
+
+     .formulario{
+        height:570px ;
+     }
+     .formulario-contato{
+        margin-bottom: 1%;
+     }
+     .formulario-texto{
+        padding-bottom: 2%;
+     }
+     .caixa-formulario{
+        width: 990px;
+        height: 30%;
+        position:absolute;
+        margin-top: 1%;
+     }
+
+     form input{
+        margin-bottom: 3%;
+     }
+     .botao{
+        width: 100px;
+        padding-left: 5%;
+        margin-top: -3%;
+     }
+     .footer{
+        opacity: 0.90;
+     }
+     .footer-texto{
+        text-align: center;
+        
+     }
+     #data{
+        padding-left: 50%;
+     }    
+   
+}
+
+
+
+
+    
